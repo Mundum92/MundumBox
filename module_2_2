@@ -1,45 +1,9 @@
-first=1243523
-second=2345246
-third=33452453
-if first==second==third :
+first=int(input(''))
+second=int(input(''))
+third=int(input(''))
+if first == second == third:
     print(3)
-if first==second or first==third :
+elif first == second or first == third or second == third :
     print(2)
-if first!=second!=third:
-    print(0)
-first=123
-second=456
-third=789
-if first==second==third :
-    print(3)
-if first==second or first==third :
-    print(2)
-if first!=second!=third:
-    print(0)
-first=1,2,
-second=2,4
-third=4,7
-if first==second==third :
-    print(3)
-if first==second or first==third :
-    print(2)
-if first!=second!=third:
-    print(0)
-first=1
-second=1
-third=4
-if first==second==third :
-    print(3)
-if first==second or first==third :
-    print(2)
-if first!=second!=third:
-    print(0)
-first=42
-second=69
-third=42
-if first==second==third :
-    print(3)
-if first==second or first==third :
-    print(2)
-if first!=second!=third:
+else:
     print(0)
